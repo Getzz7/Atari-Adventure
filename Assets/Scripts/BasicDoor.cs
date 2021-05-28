@@ -4,15 +4,42 @@ using UnityEngine;
 
 public class BasicDoor : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Miembros de clase pública
+    public GameObject puerta;
+    public Color colorRequerido;
+    public float distanciaMover = 3f;
+
+    // Miembros de clase protegidos
+    protected Renderer puertaRender;
+    protected bool abierto;
+
+    // Método que se ejecuta cuando aparece este objeto en pantalla
     void Start()
     {
-        
+        puertaRender = puerta.GetComponent<Renderer>();
+        puertaRender.material.color = colorRequerido;
     }
 
-    // Update is called once per frame
-    void Update()
+    // Método que se ejecuta cuando este objeto interseca otro objeto en el juego.
+    private void OnTriggerEnter(Collider other)
     {
-        
+        // Consultamos si el objeto que interseca tiene la etiqueta del jugador.
+        if (!abierto && other.CompareTag("Player"))
+        {
+            Debug.Log("Jugador Detectado");
+            PlayerData playerdata = other.gameObject.GetComponent<PlayerData>();
+
+            if(playerdata.colorActual == colorRequerido) 
+            {
+                Debug.Log("El color coincide");
+                puerta.transform.Translate(Vector3.down * distanciaMover);
+                abierto = true;
+            }
+            else
+            {
+                Debug.Log("El jugador tiene el color " + playerdata.colorActual.ToString() );
+                Debug.Log("La puerta tiene el color " + colorRequerido.ToString() );
+            }
+        }
     }
-}
+}   
