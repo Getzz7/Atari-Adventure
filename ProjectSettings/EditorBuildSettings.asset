@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/07-Mecanica5-CambiarEscena-A.unity
+    guid: f411cb785f62c494997cc68fd4c89d87
+  - enabled: 1
+    path: Assets/Scenes/07-Mecanica5-CambiarEscena-B.unity
+    guid: 573e4127a974ef74fb1fae14a1bff767
   m_configObjects: {}
