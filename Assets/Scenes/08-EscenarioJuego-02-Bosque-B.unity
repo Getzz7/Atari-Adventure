@@ -153,8 +153,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43c355c94bf40048bebd1bb351d57cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroPuerta: 0
-  puertaDestino: 0
+  numeroPuerta: 6
+  puertaDestino: 7
   SiguienteEscena: '08-EscenarioJuego-03-Bosque-C '
 --- !u!65 &180606474
 BoxCollider:
@@ -555,8 +555,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43c355c94bf40048bebd1bb351d57cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroPuerta: 0
-  puertaDestino: 0
+  numeroPuerta: 5
+  puertaDestino: 9
   SiguienteEscena: '08-EscenarioJuego-05-Castillo1-A '
 --- !u!65 &1658833485
 BoxCollider:
@@ -930,8 +930,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43c355c94bf40048bebd1bb351d57cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroPuerta: 0
-  puertaDestino: 0
+  numeroPuerta: 4
+  puertaDestino: 2
   SiguienteEscena: '08-EscenarioJuego-01-Bosque-A '
 --- !u!65 &2090041685
 BoxCollider:

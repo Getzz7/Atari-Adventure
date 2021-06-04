@@ -247,8 +247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43c355c94bf40048bebd1bb351d57cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroPuerta: 0
-  puertaDestino: 0
+  numeroPuerta: 1
+  puertaDestino: 3
   SiguienteEscena: 08-EscenarioJuego-04-Calabozo
 --- !u!65 &182426362
 BoxCollider:
@@ -904,8 +904,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43c355c94bf40048bebd1bb351d57cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroPuerta: 0
-  puertaDestino: 0
+  numeroPuerta: 2
+  puertaDestino: 4
   SiguienteEscena: '08-EscenarioJuego-02-Bosque-B '
 --- !u!65 &2081711633
 BoxCollider:

@@ -620,6 +620,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43c355c94bf40048bebd1bb351d57cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numeroPuerta: 3
+  puertaDestino: 1
   SiguienteEscena: 08-EscenarioJuego-01-Bosque-A
 --- !u!65 &1933809647
 BoxCollider:
