@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 public class CambiarEscenaAlContacto : MonoBehaviour
 {
- public string SiguienteEscena;
- private void OnTriggerEnter(Collider other)
+    public int numeroPuerta;
+    public int puertaDestino;
+    public string SiguienteEscena;
+    private void OnTriggerEnter(Collider other)
  {
- if (other.CompareTag("Player"))
+    if (other.CompareTag("Player"))
  {
- GameManager.instance.ChangeScenes(SiguienteEscena);
+    GameManager.instance.ChangeScenes(SiguienteEscena);
  }
  }
 } 
