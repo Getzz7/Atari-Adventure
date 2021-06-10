@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 299915608}
   - component: {fileID: 299915607}
   m_Layer: 0
-  m_Name: Portal-16-Escenario 14
+  m_Name: Portal-73-Escenario 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -295,8 +295,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43c355c94bf40048bebd1bb351d57cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroPuerta: 16
-  puertaDestino: 17
+  numeroPuerta: 73
+  puertaDestino: 74
   SiguienteEscena: 08-EscenarioJuego-14-Final
 --- !u!65 &299915608
 BoxCollider:
@@ -681,7 +681,7 @@ GameObject:
   - component: {fileID: 1054839820}
   - component: {fileID: 1054839819}
   m_Layer: 0
-  m_Name: Portal-15-Escenario 12
+  m_Name: Portal-72-Escenario 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -699,8 +699,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43c355c94bf40048bebd1bb351d57cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroPuerta: 15
-  puertaDestino: 14
+  numeroPuerta: 72
+  puertaDestino: 71
   SiguienteEscena: 08-EscenarioJuego-12-Castillo2-A
 --- !u!65 &1054839820
 BoxCollider:

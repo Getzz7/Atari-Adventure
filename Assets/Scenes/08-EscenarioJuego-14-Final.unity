@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 299915608}
   - component: {fileID: 299915607}
   m_Layer: 0
-  m_Name: Portal-17-Escenario 13
+  m_Name: Portal-74-Escenario 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -295,8 +295,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43c355c94bf40048bebd1bb351d57cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroPuerta: 17
-  puertaDestino: 16
+  numeroPuerta: 74
+  puertaDestino: 73
   SiguienteEscena: 08-EscenarioJuego-13-Castillo2-B
 --- !u!65 &299915608
 BoxCollider:
