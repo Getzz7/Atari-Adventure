@@ -5,10 +5,52 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/07-Mecanica5-CambiarEscena-A.unity
     guid: f411cb785f62c494997cc68fd4c89d87
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/07-Mecanica5-CambiarEscena-B.unity
     guid: 573e4127a974ef74fb1fae14a1bff767
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-01-Bosque-A.unity
+    guid: 56c8d444d94194c46a00420ba16c396b
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-02-Bosque-B.unity
+    guid: 5e4bbd8e2b06772429cf4d0db287ec97
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-03-Bosque-C.unity
+    guid: f0e4ee5e1247ea84992a1efdbd5cc4a1
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-04-Calabozo.unity
+    guid: 1f1e66196dda4c445a5d337e87a3026c
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-05-Castillo1-A.unity
+    guid: bdce5364c66a88742ab80c85b586e4f8
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-06-Castillo1-B.unity
+    guid: 24844997f3abb7f46882cf14f08c4063
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-07-Laberinto-A.unity
+    guid: a557d8e6aa9b7ee418a12ead2edffddc
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-08-Laberinto-B.unity
+    guid: 2a7c8d9696b126a4c8cc37cd41d7b54e
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-09-Laberinto-C.unity
+    guid: 188ac0c61d9199843be89c31c0475ea2
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-10-Laberinto-D.unity
+    guid: e021679db5694234e838e2adee82a811
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-11-Laberinto-E.unity
+    guid: 42a712df14f076e42a4ce981f59df7cb
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-12-Castillo2-A.unity
+    guid: c8deb9965c6ec7c4b9f9ab92d234d687
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-13-Castillo2-B.unity
+    guid: 39c78d243fa96944daabef67900a82d6
+  - enabled: 1
+    path: Assets/Scenes/08-EscenarioJuego-14-Final.unity
+    guid: 83156f3f7c0c74d449a54656a4cbfde5
   m_configObjects: {}
