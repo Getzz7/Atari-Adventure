@@ -4,6 +4,7 @@ public class GameManager : MonoBehaviour
 {
  public static GameManager instance;
  private int _score;
+ private string _currentDoorld;
  private void Awake()
  {
  if(instance == null)
@@ -36,5 +37,15 @@ public class GameManager : MonoBehaviour
  public void ResetScore()
  {
  _score = 0;
+ }
+ 
+ public void SetDoor(string doorld)
+ {
+     _currentDoorld = doorld;
+ }
+
+ public string GetDoor()
+ {
+     return _currentDoorld;
  }
 } 
