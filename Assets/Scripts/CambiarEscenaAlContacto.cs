@@ -6,11 +6,24 @@ public class CambiarEscenaAlContacto : MonoBehaviour
     public int numeroPuerta;
     public int puertaDestino;
     public string SiguienteEscena;
+    public Transform PosicionRespawn;
+    public Player ObjetoJugador;
+    
     private void OnTriggerEnter(Collider other)
  {
     if (other.CompareTag("Player"))
  {
+    //Aqui va el codigo para guardar la puerta de Destino
+    GameManager.instance.SetDoor(puertaDestino.ToString());
     GameManager.instance.ChangeScenes(SiguienteEscena);
  }
  }
+
+   void Start()
+   {
+      if(GameManager.instance.GetDoor()==numeroPuerta.ToString())
+      {
+        ObjetoJugador.transform.position=PosicionRespawn.position; 
+      }
+   }
 } 
