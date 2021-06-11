@@ -298,6 +298,8 @@ MonoBehaviour:
   numeroPuerta: 73
   puertaDestino: 74
   SiguienteEscena: 08-EscenarioJuego-14-Final
+  PosicionRespawn: {fileID: 0}
+  ObjetoJugador: {fileID: 0}
 --- !u!65 &299915608
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -702,6 +704,8 @@ MonoBehaviour:
   numeroPuerta: 72
   puertaDestino: 71
   SiguienteEscena: 08-EscenarioJuego-12-Castillo2-A
+  PosicionRespawn: {fileID: 0}
+  ObjetoJugador: {fileID: 0}
 --- !u!65 &1054839820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1024,3 +1028,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3876829660204331702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02431149
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.8531208
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.9815922
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876829660998953117, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
+        type: 3}
+      propertyPath: m_Name
+      value: Singleton Sonido
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9, type: 3}
