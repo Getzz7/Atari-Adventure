@@ -380,7 +380,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numeroPuerta: 10
   puertaDestino: 11
-  SiguienteEscena: '08-EscenarioJuego-06-Castillo1-B '
+  SiguienteEscena: 08-EscenarioJuego-06-Castillo1-B
+  PosicionRespawn: {fileID: 0}
+  ObjetoJugador: {fileID: 0}
 --- !u!65 &129862558
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -707,7 +709,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numeroPuerta: 9
   puertaDestino: 5
-  SiguienteEscena: '08-EscenarioJuego-02-Bosque-B '
+  SiguienteEscena: 08-EscenarioJuego-02-Bosque-B
+  PosicionRespawn: {fileID: 0}
+  ObjetoJugador: {fileID: 0}
 --- !u!65 &1190220992
 BoxCollider:
   m_ObjectHideFlags: 0

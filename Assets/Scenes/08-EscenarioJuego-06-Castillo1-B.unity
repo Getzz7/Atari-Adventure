@@ -733,7 +733,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numeroPuerta: 11
   puertaDestino: 10
-  SiguienteEscena: '08-EscenarioJuego-05-Castillo1-A '
+  SiguienteEscena: 08-EscenarioJuego-05-Castillo1-A
+  PosicionRespawn: {fileID: 0}
+  ObjetoJugador: {fileID: 0}
 --- !u!65 &1980201114
 BoxCollider:
   m_ObjectHideFlags: 0
