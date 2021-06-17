@@ -306,7 +306,7 @@ MonoBehaviour:
   sounds:
   - {fileID: 8300000, guid: 040f062abbff65140a703373706c2bef, type: 3}
   - {fileID: 8300000, guid: d81110cfd44954a47b0cfea4fafc17b5, type: 3}
-  - {fileID: 8300000, guid: adc932035ba35234ba37d13d53299e1d, type: 3}
+  - {fileID: 8300000, guid: 64985c52f07c319438e212fbd4eaaa00, type: 3}
 --- !u!1 &3876829661123509907
 GameObject:
   m_ObjectHideFlags: 0
