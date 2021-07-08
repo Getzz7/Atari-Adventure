@@ -9,18 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/Portada.unity
     guid: 7758b7664a9ea0049a181314d365f1a9
   - enabled: 1
-    path: Assets/Scenes/Menus/Creditos.unity
-    guid: 18e3eb37858fefa4ea448cf02a717eb5
-  - enabled: 1
-    path: Assets/Scenes/Menus/Ganar.unity
-    guid: cf47945247bc48c41b9808d2a8a1b6fa
-  - enabled: 1
-    path: Assets/Scenes/Menus/Intro.unity
-    guid: 1e10b227eb2fb684fa1eb47734b3b617
-  - enabled: 1
-    path: Assets/Scenes/Menus/Perder.unity
-    guid: 9ac105e0523d69e4a9003d54bd50fd97
-  - enabled: 1
     path: Assets/Scenes/08-EscenarioJuego-01-Bosque-A.unity
     guid: 56c8d444d94194c46a00420ba16c396b
   - enabled: 1
@@ -62,4 +50,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/08-EscenarioJuego-14-Final.unity
     guid: 83156f3f7c0c74d449a54656a4cbfde5
+  - enabled: 1
+    path: Assets/Scenes/Menus/Creditos.unity
+    guid: 18e3eb37858fefa4ea448cf02a717eb5
+  - enabled: 1
+    path: Assets/Scenes/Menus/Ganar.unity
+    guid: cf47945247bc48c41b9808d2a8a1b6fa
+  - enabled: 1
+    path: Assets/Scenes/Menus/Intro.unity
+    guid: 1e10b227eb2fb684fa1eb47734b3b617
+  - enabled: 1
+    path: Assets/Scenes/Menus/Perder.unity
+    guid: 9ac105e0523d69e4a9003d54bd50fd97
   m_configObjects: {}
