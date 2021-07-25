@@ -35,11 +35,15 @@ public class Player : MonoBehaviour
         velocidadZ = Input.GetAxisRaw("Vertical") * velocidadDesplamiento;
         if (velocidadX + velocidadZ == 0)
         {
+            if(anim != null) 
+            {
             anim.SetFloat("speed",0f);
+            }
         }
+            
         else
         {
-            anim.SetFloat("speed",Mathf.Abs(velocidadX) + Mathf.Abs(velocidadZ));
+           if(anim != null) anim.SetFloat("speed",Mathf.Abs(velocidadX) + Mathf.Abs(velocidadZ));
         }
         // Tecla de salto
         if (enElPiso && Input.GetKeyDown(KeyCode.Space))
