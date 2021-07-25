@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     public float velocidadSalto = 5;
     public float distanciaRayo = 1.1f;
     public bool enElPiso;
+    public Animator anim;
 
     // Miembros de clase protegidos
     protected Rigidbody cuerpoRigido;
@@ -32,7 +33,14 @@ public class Player : MonoBehaviour
         // Lectura de teclado
         velocidadX = Input.GetAxisRaw("Horizontal") * velocidadDesplamiento;
         velocidadZ = Input.GetAxisRaw("Vertical") * velocidadDesplamiento;
-
+        if (velocidadX + velocidadZ == 0)
+        {
+            anim.SetFloat("speed",0f);
+        }
+        else
+        {
+            anim.SetFloat("speed",Mathf.Abs(velocidadX) + Mathf.Abs(velocidadZ));
+        }
         // Tecla de salto
         if (enElPiso && Input.GetKeyDown(KeyCode.Space))
         {
