@@ -4516,6 +4516,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2045295033, guid: 21782ff2dd4026745989b260e7108c4a, type: 3}
+      propertyPath: sonido
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045295033, guid: 21782ff2dd4026745989b260e7108c4a, type: 3}
+      propertyPath: SiguienteEscena
+      value: Perder
+      objectReference: {fileID: 0}
     - target: {fileID: 1761577234991556916, guid: 21782ff2dd4026745989b260e7108c4a,
         type: 3}
       propertyPath: m_Name
@@ -4526,6 +4534,11 @@ PrefabInstance:
       propertyPath: Jugador
       value: 
       objectReference: {fileID: 2134457882}
+    - target: {fileID: 2871315840602277716, guid: 21782ff2dd4026745989b260e7108c4a,
+        type: 3}
+      propertyPath: distanciaMaxima
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5637951978363623320, guid: 21782ff2dd4026745989b260e7108c4a,
         type: 3}
       propertyPath: m_RootOrder

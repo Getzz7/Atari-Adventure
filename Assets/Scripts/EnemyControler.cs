@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class EnemyControler : MonoBehaviour
 {
     public float distanciaMinima;
+    public float distanciaMaxima;
     private float distanciaActual; 
     public Transform Jugador; 
     public Transform PosicionInicial;
@@ -26,11 +27,20 @@ public class EnemyControler : MonoBehaviour
 
        if(distanciaActual < distanciaMinima)
        {
-           // La distancia actual es menor a la minima persigue al jugador
+           if( distanciaActual > distanciaMaxima)
+           {
+               agent.Stop();
+           }
+           else
+           {
+               agent.Resume();
+               // La distancia actual es menor a la minima persigue al jugador
             agent.SetDestination(Jugador.position);
+           }   
        }
        else
        {
+           agent.Resume();
            // No perseguir al jugar e ir a la posicion inicial
            agent.SetDestination(PosicionInicial.position);
        }
