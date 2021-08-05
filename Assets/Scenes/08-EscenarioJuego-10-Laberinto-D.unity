@@ -134,7 +134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -310,7 +310,7 @@ MonoBehaviour:
   puertaDestino: 19
   SiguienteEscena: 08-EscenarioJuego-07-Laberinto-A
   PosicionRespawn: {fileID: 1445439898}
-  ObjetoJugador: {fileID: 46253605}
+  ObjetoJugador: {fileID: 960673163}
   sonido: 0
 --- !u!65 &13601190
 BoxCollider:
@@ -469,7 +469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 474482, guid: c0a97f89f66be1840abe0471300c737f, type: 3}
       propertyPath: m_RootOrder
-      value: 89
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 474482, guid: c0a97f89f66be1840abe0471300c737f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -513,148 +513,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0a97f89f66be1840abe0471300c737f, type: 3}
---- !u!1 &46253602
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 46253609}
-  - component: {fileID: 46253608}
-  - component: {fileID: 46253607}
-  - component: {fileID: 46253606}
-  - component: {fileID: 46253605}
-  - component: {fileID: 46253604}
-  - component: {fileID: 46253603}
-  m_Layer: 0
-  m_Name: Jugador
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &46253603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46253602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9b2538feb5476b47b66f93829901277, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colorActual: {r: 1, g: 1, b: 1, a: 1}
---- !u!54 &46253604
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46253602}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
---- !u!114 &46253605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46253602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46d126fbff63e43478bf4a6f473a5b07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidadDesplamiento: 5
-  velocidadSalto: 5
-  distanciaRayo: 1.1
-  enElPiso: 0
---- !u!136 &46253606
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46253602}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &46253607
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46253602}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &46253608
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46253602}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &46253609
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46253602}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.35, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &48746767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -672,7 +530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -741,7 +599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_RootOrder
-      value: 81
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_LocalScale.x
@@ -955,7 +813,7 @@ MonoBehaviour:
   puertaDestino: 65
   SiguienteEscena: 08-EscenarioJuego-09-Laberinto-C
   PosicionRespawn: {fileID: 1240853287}
-  ObjetoJugador: {fileID: 46253605}
+  ObjetoJugador: {fileID: 960673163}
   sonido: 0
 --- !u!65 &142014011
 BoxCollider:
@@ -1102,7 +960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4950615772394298, guid: 6f8e2bbc0740f60409afee2840eebd2f, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 4950615772394298, guid: 6f8e2bbc0740f60409afee2840eebd2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1163,7 +1021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -1316,7 +1174,7 @@ MonoBehaviour:
   puertaDestino: 16
   SiguienteEscena: 08-EscenarioJuego-07-Laberinto-A
   PosicionRespawn: {fileID: 1806087013}
-  ObjetoJugador: {fileID: 46253605}
+  ObjetoJugador: {fileID: 960673163}
   sonido: 0
 --- !u!65 &299915608
 BoxCollider:
@@ -1478,7 +1336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4583118223193562, guid: b6270179b89275543ba032d6176dfa81, type: 3}
       propertyPath: m_RootOrder
-      value: 74
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 4583118223193562, guid: b6270179b89275543ba032d6176dfa81, type: 3}
       propertyPath: m_LocalScale.x
@@ -1609,7 +1467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_RootOrder
-      value: 86
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_LocalScale.x
@@ -1867,7 +1725,7 @@ MonoBehaviour:
   puertaDestino: 21
   SiguienteEscena: 08-EscenarioJuego-07-Laberinto-A
   PosicionRespawn: {fileID: 646589826}
-  ObjetoJugador: {fileID: 46253605}
+  ObjetoJugador: {fileID: 960673163}
   sonido: 0
 --- !u!65 &405308598
 BoxCollider:
@@ -2084,7 +1942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_RootOrder
-      value: 65
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -2153,7 +2011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -2248,7 +2106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_RootOrder
-      value: 64
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -2713,7 +2571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_RootOrder
-      value: 63
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -2786,7 +2644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_RootOrder
-      value: 61
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -2855,7 +2713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 492910, guid: 380c131da968d424ab4902f967bc23d5, type: 3}
       propertyPath: m_RootOrder
-      value: 70
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 492910, guid: 380c131da968d424ab4902f967bc23d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2912,7 +2770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_RootOrder
-      value: 87
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_LocalScale.x
@@ -3008,7 +2866,7 @@ MonoBehaviour:
   puertaDestino: 66
   SiguienteEscena: 08-EscenarioJuego-09-Laberinto-C
   PosicionRespawn: {fileID: 1911083811}
-  ObjetoJugador: {fileID: 46253605}
+  ObjetoJugador: {fileID: 960673163}
   sonido: 0
 --- !u!65 &690605699
 BoxCollider:
@@ -3191,7 +3049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -3252,7 +3110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 474482, guid: c0a97f89f66be1840abe0471300c737f, type: 3}
       propertyPath: m_RootOrder
-      value: 90
+      value: 89
       objectReference: {fileID: 0}
     - target: {fileID: 474482, guid: c0a97f89f66be1840abe0471300c737f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3352,7 +3210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -3443,7 +3301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -3504,7 +3362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -3622,7 +3480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 492910, guid: 380c131da968d424ab4902f967bc23d5, type: 3}
       propertyPath: m_RootOrder
-      value: 72
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 492910, guid: 380c131da968d424ab4902f967bc23d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3739,6 +3597,87 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
+--- !u!1001 &960673162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4335876418851557496, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_Name
+      value: Jugador
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6796906
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0a0ccc98ba32634d954ec7de8d39bec, type: 3}
+--- !u!114 &960673163 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1782450063553698218, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+    type: 3}
+  m_PrefabInstance: {fileID: 960673162}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46d126fbff63e43478bf4a6f473a5b07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &967900350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3752,7 +3691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4950615772394298, guid: 6f8e2bbc0740f60409afee2840eebd2f, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4950615772394298, guid: 6f8e2bbc0740f60409afee2840eebd2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -3985,7 +3924,7 @@ MonoBehaviour:
   puertaDestino: 18
   SiguienteEscena: 08-EscenarioJuego-07-Laberinto-A
   PosicionRespawn: {fileID: 1735166890}
-  ObjetoJugador: {fileID: 46253605}
+  ObjetoJugador: {fileID: 960673163}
   sonido: 0
 --- !u!65 &1015076525
 BoxCollider:
@@ -4075,7 +4014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4583118223193562, guid: b6270179b89275543ba032d6176dfa81, type: 3}
       propertyPath: m_RootOrder
-      value: 73
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 4583118223193562, guid: b6270179b89275543ba032d6176dfa81, type: 3}
       propertyPath: m_LocalScale.x
@@ -4149,7 +4088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -4210,7 +4149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_RootOrder
-      value: 80
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_LocalScale.x
@@ -4362,7 +4301,7 @@ Transform:
   m_LocalScale: {x: 1.8418, y: 1.8418, z: 2.3459005}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1057296602
 GameObject:
@@ -4512,7 +4451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 492910, guid: 380c131da968d424ab4902f967bc23d5, type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 492910, guid: 380c131da968d424ab4902f967bc23d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4731,7 +4670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4950615772394298, guid: 6f8e2bbc0740f60409afee2840eebd2f, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 4950615772394298, guid: 6f8e2bbc0740f60409afee2840eebd2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -4792,7 +4731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_RootOrder
-      value: 83
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_LocalScale.x
@@ -4865,7 +4804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_RootOrder
-      value: 88
+      value: 87
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_LocalScale.x
@@ -5045,7 +4984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_RootOrder
-      value: 66
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -5237,7 +5176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -5518,7 +5457,7 @@ MonoBehaviour:
   puertaDestino: 20
   SiguienteEscena: 08-EscenarioJuego-07-Laberinto-A
   PosicionRespawn: {fileID: 834989860}
-  ObjetoJugador: {fileID: 46253605}
+  ObjetoJugador: {fileID: 960673163}
   sonido: 0
 --- !u!65 &1494514583
 BoxCollider:
@@ -5669,7 +5608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -5928,7 +5867,7 @@ MonoBehaviour:
   puertaDestino: 44
   SiguienteEscena: 08-EscenarioJuego-11-Laberinto-E
   PosicionRespawn: {fileID: 450448354}
-  ObjetoJugador: {fileID: 46253605}
+  ObjetoJugador: {fileID: 960673163}
   sonido: 0
 --- !u!65 &1573429406
 BoxCollider:
@@ -6018,7 +5957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 466186, guid: 0dd137872bec6e04aaaaa2b3e9f3c5a7, type: 3}
       propertyPath: m_RootOrder
-      value: 68
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 466186, guid: 0dd137872bec6e04aaaaa2b3e9f3c5a7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6075,7 +6014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 492910, guid: 380c131da968d424ab4902f967bc23d5, type: 3}
       propertyPath: m_RootOrder
-      value: 69
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 492910, guid: 380c131da968d424ab4902f967bc23d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6132,7 +6071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_LocalScale.x
@@ -6205,7 +6144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_LocalScale.x
@@ -6388,7 +6327,7 @@ MonoBehaviour:
   puertaDestino: 43
   SiguienteEscena: 08-EscenarioJuego-11-Laberinto-E
   PosicionRespawn: {fileID: 501649566}
-  ObjetoJugador: {fileID: 46253605}
+  ObjetoJugador: {fileID: 960673163}
   sonido: 0
 --- !u!65 &1682069037
 BoxCollider:
@@ -6508,7 +6447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -6569,7 +6508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -6653,7 +6592,7 @@ MonoBehaviour:
   puertaDestino: 17
   SiguienteEscena: 08-EscenarioJuego-07-Laberinto-A
   PosicionRespawn: {fileID: 1133776466}
-  ObjetoJugador: {fileID: 46253605}
+  ObjetoJugador: {fileID: 960673163}
   sonido: 0
 --- !u!65 &1762965569
 BoxCollider:
@@ -6773,7 +6712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 474482, guid: c0a97f89f66be1840abe0471300c737f, type: 3}
       propertyPath: m_RootOrder
-      value: 67
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 474482, guid: c0a97f89f66be1840abe0471300c737f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6827,7 +6766,7 @@ PrefabInstance:
     - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 3876829660998953115, guid: cf72e8b3151cbeb4ea8c90fd6f05d1b9,
         type: 3}
@@ -6998,7 +6937,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 54
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -7185,7 +7124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_RootOrder
-      value: 56
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
       propertyPath: m_LocalScale.z
@@ -7657,7 +7596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_RootOrder
-      value: 85
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7515f9a36529004d8f62f358821932c, type: 3}
       propertyPath: m_LocalScale.x
@@ -7883,7 +7822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -8013,7 +7952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 4669303385289600, guid: 237e8573a5755b740868ac6f6b921a8c, type: 3}
       propertyPath: m_LocalScale.x
