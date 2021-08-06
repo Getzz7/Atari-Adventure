@@ -8,6 +8,7 @@ public class ColorKey : MonoBehaviour
 {
     // Miembros de clase pública
     public Color colorObjeto;
+    public int agarrada;
 
     // Miembros de clase protegidos
     protected Renderer render;
@@ -15,7 +16,14 @@ public class ColorKey : MonoBehaviour
     // Método que se ejecuta cuando aparece este objeto en pantalla
     void Start()
     {
+        //PlayerPrefs.DeleteAll();
         render = GetComponent<Renderer>();
+        agarrada = PlayerPrefs.GetInt(this.gameObject.name,0);
+        if(agarrada == 1)
+        {
+            Debug.Log("Llave agarrada");
+            this.gameObject.SetActive(false);
+        }
     }
 
     // Rutina que se ejecuta cada vez que se dibuja una nueva imagen en pantalla.
@@ -32,6 +40,7 @@ public class ColorKey : MonoBehaviour
         {
             PlayerData playerdata = other.gameObject.GetComponent<PlayerData>();
             playerdata.colorActual = IntercambiarColor(playerdata.colorActual);
+            PlayerPrefs.SetInt(this.gameObject.name,1);
         }
     }
 

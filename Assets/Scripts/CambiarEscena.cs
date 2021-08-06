@@ -16,6 +16,10 @@ public class CambiarEscena : MonoBehaviour
     {
         
     }
+    public void BorrarJuego()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 
     public void CambioEscena(string nombreEscena)
     {

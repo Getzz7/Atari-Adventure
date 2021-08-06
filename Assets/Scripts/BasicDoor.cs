@@ -8,7 +8,7 @@ public class BasicDoor : MonoBehaviour
     public GameObject puerta;
     public Color colorRequerido;
     public float distanciaMover = 3f;
-
+    public int abierta;
     // Miembros de clase protegidos
     protected Renderer puertaRender;
     protected bool abierto;
@@ -18,6 +18,14 @@ public class BasicDoor : MonoBehaviour
     {
         puertaRender = puerta.GetComponent<Renderer>();
         puertaRender.material.color = colorRequerido;
+        abierta = PlayerPrefs.GetInt(this.gameObject.name,0);
+        if(abierta==1)
+        {
+            //La puerta ya fue abierta ,proceder a abirila si esta cerrada
+            Debug.Log("El color coincide");
+            puerta.transform.Translate(Vector3.down * distanciaMover);
+            abierto = true;
+        }
     }
 
     // Método que se ejecuta cuando este objeto interseca otro objeto en el juego.
@@ -34,6 +42,7 @@ public class BasicDoor : MonoBehaviour
                 Debug.Log("El color coincide");
                 puerta.transform.Translate(Vector3.down * distanciaMover);
                 abierto = true;
+                PlayerPrefs.SetInt(this.gameObject.name,1);
             }
             else
             {
