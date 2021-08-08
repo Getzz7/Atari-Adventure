@@ -16,7 +16,7 @@ public class ColorKey : MonoBehaviour
     // Método que se ejecuta cuando aparece este objeto en pantalla
     void Start()
     {
-        //PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll();
         render = GetComponent<Renderer>();
         agarrada = PlayerPrefs.GetInt(this.gameObject.name,0);
         if(agarrada == 1)
