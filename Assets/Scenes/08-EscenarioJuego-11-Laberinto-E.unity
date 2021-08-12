@@ -1626,6 +1626,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134171705}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &145826244 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6570221754687054135, guid: b0a0ccc98ba32634d954ec7de8d39bec,
+    type: 3}
+  m_PrefabInstance: {fileID: 470612702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &147437009
 GameObject:
   m_ObjectHideFlags: 0
@@ -5247,7 +5253,7 @@ Transform:
   m_LocalScale: {x: 1.553, y: 1.553, z: 1.553}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 174
+  m_RootOrder: 178
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &466213915
 PrefabInstance:
@@ -9439,7 +9445,7 @@ Transform:
   m_LocalScale: {x: 6.64492, y: 3.2645147, z: 3.2645147}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 232
+  m_RootOrder: 235
   m_LocalEulerAnglesHint: {x: 44.667004, y: 0, z: 0}
 --- !u!1 &963348518
 GameObject:
@@ -12619,7 +12625,7 @@ Transform:
   m_LocalScale: {x: 1.553, y: 1.553, z: 1.553}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 167
+  m_RootOrder: 168
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1231479032
 PrefabInstance:
@@ -13397,7 +13403,7 @@ Transform:
   m_LocalScale: {x: 1.553, y: 1.553, z: 1.553}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 170
+  m_RootOrder: 172
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1317156980
 PrefabInstance:
@@ -21426,7 +21432,7 @@ Transform:
   - {fileID: 1942840159517663370}
   - {fileID: 8111927463548573966}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &3612783747037890020
 MeshRenderer:
@@ -21481,7 +21487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanciaMinima: 3
   distanciaMaxima: 0
-  Jugador: {fileID: 0}
+  Jugador: {fileID: 145826244}
   PosicionInicial: {fileID: 1942840159517663370}
   agent: {fileID: 7329734228098604661}
 --- !u!195 &7329734228098604661
@@ -21584,8 +21590,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19777562258fb8844be679954c8c1ae7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SiguienteEscena: 
-  sonido: 0
+  SiguienteEscena: Perder
+  sonido: 2
 --- !u!33 &7329734228688176694
 MeshFilter:
   m_ObjectHideFlags: 0
