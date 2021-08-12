@@ -14630,7 +14630,7 @@ MonoBehaviour:
   puertaDestino: 14
   SiguienteEscena: 08-EscenarioJuego-07-Laberinto-A
   PosicionRespawn: {fileID: 1475070978}
-  ObjetoJugador: {fileID: 0}
+  ObjetoJugador: {fileID: 3435330454012800407}
   sonido: 0
 --- !u!65 &1706807382
 BoxCollider:
