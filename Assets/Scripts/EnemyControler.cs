@@ -24,6 +24,7 @@ public class EnemyControler : MonoBehaviour
         // el enemigo persigue al jugador
        distanciaActual = Vector3.Distance(Jugador.position, this.transform.position);
        Debug.Log(distanciaActual); 
+       
 
        if(distanciaActual < distanciaMinima)
        {
@@ -41,10 +42,19 @@ public class EnemyControler : MonoBehaviour
        }
        else
        {
-           agent.Resume();
-           // No perseguir al jugar e ir a la posicion inicial
-           agent.SetDestination(PosicionInicial.position);
-           transform.LookAt(PosicionInicial.position);
+            distanciaActual = Vector3.Distance(PosicionInicial.position, this.transform.position);
+           if(distanciaActual < distanciaMaxima)
+           {
+               agent.Stop();
+           }
+           else
+           {
+                agent.Resume();
+                // No perseguir al jugar e ir a la posicion inicial
+                agent.SetDestination(PosicionInicial.position);
+                transform.LookAt(PosicionInicial.position);
+           }
+           
        }
 
        
