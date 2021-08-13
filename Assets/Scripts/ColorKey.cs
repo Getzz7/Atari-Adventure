@@ -19,6 +19,8 @@ public class ColorKey : MonoBehaviour
         PlayerPrefs.DeleteAll();
         render = GetComponent<Renderer>();
         agarrada = PlayerPrefs.GetInt(this.gameObject.name,0);
+        Debug.Log("Nombre Objeto: " + this.gameObject.name);
+        Debug.Log("Valor: " + agarrada);
         if(agarrada == 1)
         {
             Debug.Log("Llave agarrada");

@@ -6,6 +6,7 @@ public class BasicDoor : MonoBehaviour
 {
     // Miembros de clase pública
     public GameObject puerta;
+
     public Color colorRequerido;
     public float distanciaMover = 3f;
     public int abierta;

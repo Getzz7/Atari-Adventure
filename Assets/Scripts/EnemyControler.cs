@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -36,6 +36,7 @@ public class EnemyControler : MonoBehaviour
                agent.Resume();
                // La distancia actual es menor a la minima persigue al jugador
             agent.SetDestination(Jugador.position);
+            transform.LookAt(Jugador.position);
            }   
        }
        else
@@ -43,6 +44,9 @@ public class EnemyControler : MonoBehaviour
            agent.Resume();
            // No perseguir al jugar e ir a la posicion inicial
            agent.SetDestination(PosicionInicial.position);
+           transform.LookAt(PosicionInicial.position);
        }
+
+       
     }
 }

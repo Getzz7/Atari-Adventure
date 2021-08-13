@@ -1216,7 +1216,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421132107}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1827,7 +1827,7 @@ GameObject:
   - component: {fileID: 599272708}
   - component: {fileID: 599272712}
   m_Layer: 0
-  m_Name: Llave 1
+  m_Name: Candado1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1920,6 +1920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorObjeto: {r: 1, g: 0, b: 0, a: 0}
+  agarrada: 0
 --- !u!1001 &651963349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2663,7 +2664,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162381194}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
