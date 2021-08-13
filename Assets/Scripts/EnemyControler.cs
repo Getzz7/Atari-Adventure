@@ -8,6 +8,7 @@ public class EnemyControler : MonoBehaviour
     public float distanciaMinima;
     public float distanciaMaxima;
     private float distanciaActual; 
+    public Animator animator;
     public Transform Jugador; 
     public Transform PosicionInicial;
     public NavMeshAgent agent;
@@ -31,10 +32,12 @@ public class EnemyControler : MonoBehaviour
            if( distanciaActual > distanciaMaxima)
            {
                agent.Stop();
+               animator.SetInteger("IsMoving", 0);
            }
            else
            {
                agent.Resume();
+               animator.SetInteger("IsMoving", 1);
                // La distancia actual es menor a la minima persigue al jugador
             agent.SetDestination(Jugador.position);
             transform.LookAt(Jugador.position);
@@ -46,10 +49,12 @@ public class EnemyControler : MonoBehaviour
            if(distanciaActual < distanciaMaxima)
            {
                agent.Stop();
+               animator.SetInteger("IsMoving", 0);
            }
            else
            {
                 agent.Resume();
+                animator.SetInteger("IsMoving", 1);
                 // No perseguir al jugar e ir a la posicion inicial
                 agent.SetDestination(PosicionInicial.position);
                 transform.LookAt(PosicionInicial.position);
