@@ -43,6 +43,8 @@ public class ColorKey : MonoBehaviour
             PlayerData playerdata = other.gameObject.GetComponent<PlayerData>();
             playerdata.colorActual = IntercambiarColor(playerdata.colorActual);
             PlayerPrefs.SetInt(this.gameObject.name,1);
+            this.gameObject.SetActive(false);
+
         }
     }
 
